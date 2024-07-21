@@ -1,0 +1,50 @@
+.pricelist .container {
+  height: calc(100vh - 100px);
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pricelist__title {
+  text-align: center;
+  font-size: 24px;
+  color: var(--green);
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 522px) {
+  .pricelist__title {
+    font-size: 32px;
+  }
+}
+
+.pricelist__table {
+  width: 100%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.pricelist__table th,
+.pricelist__table td {
+  border: 1px solid var(--white);
+  padding: 12px;
+  text-align: left;
+}
+
+.pricelist__table th {
+  background-color: var(--green);
+  color: #000000;
+}
+
+.pricelist__table tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+.pricelist__table tr:hover {
+  background-color: #333333;
+}
+
+.pricelist__table td {
+  color: var(--white);
+}
